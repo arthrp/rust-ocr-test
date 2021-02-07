@@ -1,0 +1,7 @@
+image: rust:1.49
+variables:
+    CARGO_TERM_COLOR: always
+
+build:
+    script:
+        - cargo build --verbose
